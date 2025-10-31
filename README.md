@@ -1,3 +1,46 @@
+# Structure
+
+```
+ee641-hw3-Alliance-Hongchen/
+├── problem1/
+│   ├── attention.py
+│   ├── model.py
+│   ├── dataset.py
+│   ├── train.py
+│   ├── analyze.py
+│   └── results/
+│       ├── training_log.json
+│       ├── best_model.pth
+│       ├── training_curves.png
+│       ├── attention_patterns/
+│       └── head_analysis/
+├── problem2/
+│   ├── positional_encoding.py
+│   ├── model.py
+│   ├── dataset.py
+│   ├── train.py
+│   ├── analyze.py
+│   └── results/
+│       ├── sinusoidal
+│       │   ├── training_log.json
+│       │   ├── best_model.pth
+│       │   ├── training_curves.png
+│       ├── learned
+│       │   ├── training_log.json
+│       │   ├── best_model.pth
+│       │   ├── training_curves.png
+│       ├── none
+│       │   ├── training_log.json
+│       │   ├── best_model.pth
+│       │   ├── training_curves.png
+│       ├── extrapolation
+│       │   ├── extrapolation_results.json
+│       │   ├── extrapolation_curves.png
+│       │   ├── learned_position_embeddings.png
+│
+├── report.pdf
+└── README.md
+```
 # EE 641 - HW3 Starter Code
 
 ## Assignment: Attention Mechanisms and Transformers
