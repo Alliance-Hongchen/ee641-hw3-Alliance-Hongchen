@@ -1,0 +1,28 @@
+Head Importance Ranking (Most Important First)
+========================================
+Baseline Sequence Accuracy: 0.9951
+
+ 1. encoder_layers.1.self_attn.head_1        | Acc Drop: +0.6758
+ 2. decoder_layers.1.self_attn.head_1        | Acc Drop: +0.3706
+ 3. decoder_layers.1.self_attn.head_0        | Acc Drop: +0.3589
+ 4. decoder_layers.1.cross_attn.head_1       | Acc Drop: +0.2246
+ 5. decoder_layers.0.self_attn.head_0        | Acc Drop: +0.1680
+ 6. decoder_layers.1.self_attn.head_2        | Acc Drop: +0.1426
+ 7. decoder_layers.0.self_attn.head_3        | Acc Drop: +0.0586
+ 8. decoder_layers.0.self_attn.head_1        | Acc Drop: +0.0566
+ 9. decoder_layers.1.self_attn.head_3        | Acc Drop: +0.0503
+10. decoder_layers.1.cross_attn.head_2       | Acc Drop: +0.0239
+11. encoder_layers.1.self_attn.head_0        | Acc Drop: +0.0176
+12. decoder_layers.1.cross_attn.head_3       | Acc Drop: +0.0161
+13. decoder_layers.0.self_attn.head_2        | Acc Drop: +0.0127
+14. decoder_layers.0.cross_attn.head_0       | Acc Drop: +0.0117
+15. decoder_layers.0.cross_attn.head_3       | Acc Drop: +0.0098
+16. decoder_layers.1.cross_attn.head_0       | Acc Drop: +0.0088
+17. encoder_layers.1.self_attn.head_2        | Acc Drop: +0.0073
+18. encoder_layers.1.self_attn.head_3        | Acc Drop: +0.0054
+19. decoder_layers.0.cross_attn.head_2       | Acc Drop: +0.0039
+20. encoder_layers.0.self_attn.head_0        | Acc Drop: +0.0015
+21. encoder_layers.0.self_attn.head_1        | Acc Drop: +0.0000
+22. decoder_layers.0.cross_attn.head_1       | Acc Drop: +0.0000
+23. encoder_layers.0.self_attn.head_2        | Acc Drop: -0.0005
+24. encoder_layers.0.self_attn.head_3        | Acc Drop: -0.0015
